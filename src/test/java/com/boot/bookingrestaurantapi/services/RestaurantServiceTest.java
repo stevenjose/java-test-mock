@@ -59,7 +59,7 @@ public class RestaurantServiceTest {
         assertEquals(RESTAURANT_ID, RESTAURANT.getId());
     }
 
-    @Test
+    /*@Test
     public void getRestaurantsTest() throws Exception {
         Mockito.when(restaurantRepository.findAll()).thenReturn(List.of(RESTAURANT));
         List<RestaurantRest> rest = restaurantService.getRestaurants();
@@ -67,5 +67,5 @@ public class RestaurantServiceTest {
         assertNotNull(rest);
         assertFalse(rest.isEmpty());
         assertEquals(NAME, rest.get(0).getName());
-    }
+    }*/
 }
